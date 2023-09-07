@@ -8,7 +8,7 @@ https://stackoverflow.com/questions/55852570/how-can-i-get-all-the-unique-catego
 
 https://stackoverflow.com/questions/40646458/list-comprehension-in-pandas
 
-https://github.com/Asalvs/Crowdfunding_ETL/blob/main/
+https://github.com/Asalvs/Crowdfunding_ETL/blob/main/ (help w/ Regex Section)
 
 https://pandas.pydata.org/docs/reference/api/pandas.to_datetime.html
 
