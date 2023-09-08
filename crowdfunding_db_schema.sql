@@ -1,7 +1,7 @@
 --Create a table for Contacts
 
 CREATE TABLE contacts (
-    contact_id int PK FK >- campaign.contact_id,
+    contact_id int PRIMARY KEY NOT NULL,
     first_name VARCHAR (50)  NOT NULL,
     last_name VARCHAR (50)  NOT NULL,
     email VARCHAR (100)  NOT NULL,
@@ -11,7 +11,7 @@ CREATE TABLE contacts (
 --Create a table for Categories
 
 CREATE TABLE category (
-    category_id VARCHAR(20) FK >- campaign.category_id,
+    category_id VARCHAR(20) PRIMARY KEY NOT NULL,
     category VARCHAR(20) NOT NULL
         PRIMARY KEY(category_id)
 );
@@ -19,7 +19,7 @@ CREATE TABLE category (
 --Create a table for Subcategories
 
 CREATE TABLE subcategory (
-    subcategory_id VARCHAR(20) PK FK >- campaign.subcategory_id,
+    subcategory_id VARCHAR(20) PRIMARY KEY NOT NULL,
     subcategory VARCHAR (50) NOT NULL,
         PRIMARY KEY(subcategory_id)
 );
