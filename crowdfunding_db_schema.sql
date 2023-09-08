@@ -54,3 +54,43 @@ select * from subcategory
 select * from campaign
 
 --cf_id,contact_id,company_name,description,goal,pledged,outcome,backers_count,country,currency,launched_date,end_date,category_id,subcategory_id
+
+--Code copied from quickdatabasediagrams
+--# Create a table for Contacts
+
+--contacts
+--
+--contact_id int PK FK >- campaign.contact_id
+--first_name VARCHAR(50)
+--last_name VARCHAR(50)
+--email VARCHAR(100)
+
+--# Create a table for Categories
+--category
+--
+--category_id VARCHAR(20) FK >- campaign.category_id
+--category VARCHAR(20)
+
+--# Create a table for Subcategories
+--subcategory
+--
+--subcategory_id VARCHAR(20) PK FK >- campaign.subcategory_id
+--subcategory VARCHAR(50)
+
+--# Create a table for Campaigns
+--campaign
+--
+--cf_id INT
+--contact_id INT
+--company_name VARCHAR(200)
+--description VARCHAR(250)
+--goal FLOAT
+--pledged FLOAT
+--outcome VARCHAR(50)
+--backers_count INT
+--country VARCHAR(50)
+--currency VARCHAR(100)
+--launched_date DATE
+--end_date DATE
+--category_id VARCHAR(20)
+--subcategory_id VARCHAR(20)
