@@ -1,4 +1,6 @@
-# Project_2
+# Project_2 - Richard Thomas and Leo Antinozzi
+
+This is a partner project for which we both worked on the code and completion. 
 
 Assistance with the code on this assignment came from Group Member Richard Thomas, as well as the following resources. 
 
